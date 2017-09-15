@@ -6,6 +6,12 @@
 % array called students with one structure storing this information for each student. 2. Write a
 % function which takes your structure array of students as input and returns
 % the average age of the students. 
+names = {'James', 'Bob', 'John'}; 
+age = { 12, 13 , 14};
+porf = { 1, 1, 1} ;
+student = pass_fail (names, age, porf);
+
+average_age (student); 
 
 %2. In this folder, you will find an immunofluorescence image of human stem
 %cells stained for a gene called SOX2. Write a function which takes a
@@ -17,3 +23,4 @@
 %from the camera out of this field. (Hint: it is preceded by the words
 %"Actual Temperature" which don't appear anywhere else in
 %ImageDescription). 
+image_info('160611-AntiNodal-SD20x_f0003_w0002.tif');
